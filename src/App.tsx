@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import "./global.css";
 import styles from "./App.module.css";
 import { Sidebar } from "./components/Sidebar";
+import { Post } from "./components/Post";
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
         <Sidebar />
 
         <main>
-          <h1>Joao</h1>
-          <p>Blab asdasedeass</p>
+          <Post />
+          <Post />
         </main>
       </div>
     </div>
