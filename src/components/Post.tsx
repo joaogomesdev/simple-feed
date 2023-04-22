@@ -4,14 +4,14 @@ import { Comment } from "./Comment";
 
 import styles from "./Post.module.css";
 
-interface Props {}
+interface Props { }
 
-export const Post = ({}: Props) => {
+export const Post = ({ }: Props) => {
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <Avatar src="https://github.com/JoaoGomes5.png" />
+          <Avatar src="https://github.com/joaogomesdev.png" />
 
           <div className={styles.authorInfo}>
             <strong>João Gomes</strong>

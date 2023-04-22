@@ -3,12 +3,12 @@ import React from "react";
 import { Avatar } from "./Avatar";
 import styles from "./Comment.module.css";
 
-interface Props {}
+interface Props { }
 
-export const Comment = ({}: Props) => {
+export const Comment = ({ }: Props) => {
   return (
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src="https://github.com/JoaoGomes5.png" />
+      <Avatar hasBorder={false} src="https://github.com/joaogomesdev.png" />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
